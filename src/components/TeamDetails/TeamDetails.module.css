@@ -1,0 +1,70 @@
+.teamImage img {
+  width: 100%;
+  border-radius: 10px;
+}
+.teamImage {
+  text-align: right;
+  padding: 15px;
+}
+.teamContainer .teamInfo {
+  align-items: center;
+  background-image: linear-gradient(to right, #240b36, #c31432);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin: 0;
+}
+.teamInfo h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.teamInfo svg {
+  margin-right: 10px;
+}
+.breadcrumb a {
+  font-weight: 600;
+  color: #025955;
+  margin: 15px
+}
+.breadcrumb .active {
+  color: gray;
+  font-weight: 400;
+}
+.breadcrumb .active:hover {
+  text-decoration: none;
+  color: gray;
+}
+.teamParagraphInfo {
+  margin-top: 25px;
+}
+.teamParagraphInfo p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+.teamContent {
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+.loadingSpinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Media Query for Mobile Device */
+@media screen and (max-width: 575px) {
+  .teamInfo h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .teamParagraphInfo p {
+      font-size: 16px;
+      line-height: 1rem;
+  }
+  .teamBadge img {
+      width: 150px;
+  }
+}

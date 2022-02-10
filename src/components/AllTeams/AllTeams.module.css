@@ -1,0 +1,37 @@
+.card img {
+  width: 170px;
+  margin: 0 auto;
+  padding-top: 1.25rem;
+}
+.team {
+  padding: 15px;
+}
+.cardInfo a {
+  padding: 8px 20px;
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.cardInfo {
+  background-image: linear-gradient(to right, #abbaab, #ffffff);
+  box-shadow: 0 0 14px 0 #333;
+}
+.cardInfo a svg {
+  margin-left: 10px;
+}
+.cardInfo a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(to left, #8e0e00, #1f1c18);
+  transition: .3s;
+}
+
+
+/* Media Query for Mobile Device */
+@media screen and (max-width: 991px) {
+  .card img {
+      width: 150px;
+  }
+}

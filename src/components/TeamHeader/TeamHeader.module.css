@@ -1,0 +1,21 @@
+.teamHeader {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: rgb(39 36 36 / 60%);
+  background-blend-mode: multiply;
+  
+}
+.teamHeader h1 {
+  color: #fff;
+}
+.teamBadge {
+  display: flex;
+  align-items: center;
+  min-height: 260px;
+  justify-content: center;
+}
+.teamBadge img {
+  width: 180px;
+}

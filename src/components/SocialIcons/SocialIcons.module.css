@@ -1,0 +1,48 @@
+.socialIcon {
+  text-align: center;
+  margin: 40px 0;
+}
+.socialIcon a {
+  color: #333;
+  padding: 15px;
+  font-size: 35px;
+}
+.socialIcon a .fa-facebook {
+  color: #3b5998;
+}
+.socialIcon a .fa-twitter {
+  color: #00acee;
+}
+.socialIcon a .fa-youtube {
+  color: #c4302b;
+}
+.socialIcon a .fa-instagram {
+  color: #3f729b;
+}
+.socialIcon a .fa-globe {
+  color: #009195;
+}
+
+.socialIcon a:hover .fa-facebook {
+  color: gray;
+}
+.socialIcon a:hover .fa-twitter {
+  color: gray;
+}
+.socialIcon a:hover .fa-youtube {
+  color: gray;
+}
+.socialIcon a:hover .fa-instagram {
+  color: gray;
+}
+.socialIcon a:hover .fa-globe {
+  color: gray;
+}
+
+
+@media only screen and (max-width: 575px) {
+  .socialIcon a {
+      padding: 10px;
+      font-size: 30px;
+  }
+}
